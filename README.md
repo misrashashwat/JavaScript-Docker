@@ -1,8 +1,8 @@
 # JavaScript-Docker Task
 ## 7.1
 ### Here we are using HTML and CGI programming to make a basic webpage. webpage.html is used for front-end and lol.py for backend. First we make a basic HTML webpage to have an input box and two buttons with the task to reset the box and the execute the command. When we put a command in the box and press execute the XMLHttpRequest is used to send the data to the lol.py program to execute the command and send the output back to webpage.html. Then we show the output on the screen by the computer.
-##7.2
-###1)To begin with, let’s say OK Google!
+## 7.2
+### 1)To begin with, let’s say OK Google!
 Yes, Google is one of the firms that has procured the zenith. To know that such a colossal firm has not only been using Javascript technologies but is also relying on it heavily implies its dominance. The results that appear in the suggestions are a result of JS. Over the years, Google has been developing and open-sourcing its JS tools, an instance of which is the AngularJS. Not to look over the world’s most demanded and greatest search engine, the chrome browser needed a JS engine, which let to the creation of V8 by Google, a JS engine at the core of Node.js
 2)Let’s Netflix and Chill!
 An OTT platform, and not just a normal one, but being a highly demanded platform, Netflix initiated with Java, but soon enough rand into challenges related to time and space, causing a shift to cloud and Node.js. Needless to reveal that the shift from the traditional to a more contemporary and distributed approach proved beneficial. Presently, Netflix relies on Node.js greatly.
