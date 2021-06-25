@@ -1,0 +1,20 @@
+
+<h1>welcome to Docker command GUI</h1>
+<h2> Enter the command below and press run to execute the commamnd<br>and press reset to clear the command.</h2>
+command:
+<input type="text" placeholder="Enter Command" id='command'>
+<br>
+<button onclick="document.getElementbyId('command').value=''">Clear</button>
+<button onclick="check();" id="submit">Execute</button>
+<div id= 'd1'>Output:</div>
+<script>
+function check()
+{
+var a= document.getElementById("command").value;
+var x = new XMLHttpRequest();
+x.open("GET","http://192.168.1.29/cgi-bin/lol.py?y="+a,false);
+x.send();
+var o=x.responseText;
+document.getElementById("d1").innerHTML = o;
+}
+</script>
