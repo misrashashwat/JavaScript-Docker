@@ -1,1 +1,2 @@
 # JavaScript-Docker
+### Here we are using HTML and CGI programming to make a basic webpage. webpage.html is used for front-end and lol.py for backend. First we make a basic HTML webpage to have an input box and two buttons with the task to reset the box and the execute the command. When we put a command in the box and press execute the XMLHttpRequest is used to send the data to the lol.py program to execute the command and send the output back to webpage.html. Then we show the output on the screen by the computer.
